@@ -1,23 +1,28 @@
 
 # RpHUB.gg FiveM Script
 
-**__New In-Game Script Commands__:**
-- subhub = Subhub ID i.e: pd, bcso, saco, etc.
-- # = Citizen ID
-
-:white_check_mark: **Open Hub / Subhub / Citizen**```
+**__In-Game Script Commands__:**
+```
+subhubID = https://rphub.gg/serverID/subhubID
+# = Citizen ID
+```
+:white_check_mark: **Open Hub / Subhub / Citizen**
+```
 /rp
-/rp subhub
+/rp subhubID
 /rp #
 ```
-:book: **View Rules**```
+:book: **View Rules**
+```
 /rp rules
-/rp rules subhub
+/rp rules subhubID
 ```
-:busts_in_silhouette: **View Roster**```
-/rp roster subhub
+:busts_in_silhouette: **View Roster**
 ```
-:signal_strength: **View Online Now**```
+/rp roster subhubID
+```
+:signal_strength: **View Online Now/Clocked In**
+```
 /rp online
-/rp online subhub
+/rp online subhubID
 ```
